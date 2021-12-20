@@ -19,7 +19,7 @@ public class BuildLogEvents {
     public List<EventEntity> processLogEvents(List<LogEvent> logEvents){
         // construct STARTED and FINISHED events
         Map<String,Tuple> eventsMap = new HashMap<>();
-
+        LOGGER.info("Building the Log Events");
         /*logEvents.stream().map(e -> eventsMap.containsKey(e.getId())?populateTuple(e,eventsMap.get(e.getId())):
                 eventsMap.put(e.getId(),populateTuple(e,new Tuple())));*/
         for(LogEvent e: logEvents){
@@ -32,11 +32,11 @@ public class BuildLogEvents {
                 eventsMap.put(e.getId(),tuple);
             }
         }
-
-        return eventsMap.entrySet().stream().map(entry -> new EventEntity(entry.getValue().getDuration(),
-                entry.getValue().getType(),
-                entry.getValue().getHost(),
-                entry.getValue().getAlert())).collect(Collectors.toList());
+        LOGGER.info("built the Map with event tuples : {} ",eventsMap.size());
+        return eventsMap.values().stream().map(value -> new EventEntity(value.getDuration(),
+                value.getType(),
+                value.getHost(),
+                value.getAlert())).collect(Collectors.toList());
 
 
     }

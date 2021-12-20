@@ -1,0 +1,10 @@
+{"id":"dba9241e-a141-42a8-b614-ed1a6513d483","state":"FINISHED","timestamp":1639923771487,"type":"Puce","hostname":"host1"}
+{"id":"dba9241e-a141-42a8-b614-ed1a6513d483","state":"STARTED","timestamp":1639924458851,"type":"Mauv","hostname":"host3"}
+{"id":"38162d42-b18b-407a-a9b7-4d3a34041f85","state":"FINISHED","timestamp":1639924373863,"type":"Indigo","hostname":"host3"}
+{"id":"76cc334d-226b-45b7-81cc-867364c02e47","state":"STARTED","timestamp":1639921742843,"type":"Teal","hostname":"host1"}
+{"id":"76cc334d-226b-45b7-81cc-867364c02e47","state":"FINISHED","timestamp":1639921853192,"type":"Pink","hostname":"host1"}
+{"id":"387209e6-21ac-46cc-accd-b777af6fb05b","state":"STARTED","timestamp":1639923976843,"type":"Blue","hostname":"host1"}
+{"id":"387209e6-21ac-46cc-accd-b777af6fb05b","state":"FINISHED","timestamp":1639920324097,"type":"Aquamarine","hostname":"host3"}
+{"id":"38162d42-b18b-407a-a9b7-4d3a34041f85","state":"STARTED","timestamp":1639920691009,"type":"Red","hostname":"host3"}
+{"id":"a7ef9027-f889-42b1-bec8-44176f7b200a","state":"STARTED","timestamp":1639928479556,"type":"Goldenrod","hostname":"host3"}
+{"id":"a7ef9027-f889-42b1-bec8-44176f7b200a","state":"FINISHED","timestamp":1639928113224,"type":"Purple","hostname":"host2"}
